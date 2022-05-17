@@ -1,7 +1,8 @@
 # senior-project
 Repository for my CS project as a senior in high school. Copy from it or not, I don't care.
 
-License:
+# License
+
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
 
