@@ -1,9 +1,7 @@
-package src;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class arrSortMerge {
+public class arrShiftSortMerge {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of first array: ");
@@ -19,8 +17,6 @@ public class arrSortMerge {
         for (int i = 0; i < n2; i++)
             arr2[i] = sc.nextInt();
         sc.close();
-
-
         int[] merge = new int[n1 + n2];
         int aCount = 0;
         int bCount = 0;

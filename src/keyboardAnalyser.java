@@ -1,5 +1,3 @@
-package src;
-
 // Comparing the efficiency of various keyboard layouts
 // Based on user input, the amount of distance that needs to be travelled to press each key is calculated, provided all fingers are used
 // The layouts in which less distance is travelled is most efficient.

@@ -1,11 +1,8 @@
-package src;
-
 /**
  * An Achilles Number is a number that is powerful but not a perfect power.
  * A Powerful Number is a positive integer N, such that for every prime factor p of N, p2 is also a factor.
  * A Perfect Power is a positive integer N such that it can be expressed as ab, where a and b are natural numbers > 1.
  */
-
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -15,6 +12,7 @@ public class achillesNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number: ");
         int num = sc.nextInt();
+        sc.close();
         boolean b1 = isPowerful(num);
         boolean b2 = isPerfect(num);
         if (b1 && !b2)

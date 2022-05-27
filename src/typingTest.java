@@ -1,5 +1,3 @@
-package src;
-
 // Program of a typing test to find speed in WPM, CPM, accuracy % based on commonly typed words in English 1k.
 
 import java.time.LocalTime;

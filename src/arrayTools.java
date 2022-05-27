@@ -1,4 +1,4 @@
-package src;
+// Performing a lot of operations on 2D arrays
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,5 +1,3 @@
-package src;
-
 // To concatenate a sentence using camel concatenation
 
 import java.util.Scanner;

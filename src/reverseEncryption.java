@@ -1,5 +1,3 @@
-package src;
-
 // Program which takes a string of a paragraph from user
 // The characters of odd sentences are added with number
 // The even sentences are reversed in order

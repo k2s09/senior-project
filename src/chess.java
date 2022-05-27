@@ -1,5 +1,3 @@
-package src;
-
 /**
  * An input of 2 index positions in a 2d Array of size 8x8 will be taken. The program
  * should then check which chess piece can move from the first index to the second in 1 move.

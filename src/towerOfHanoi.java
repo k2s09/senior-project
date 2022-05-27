@@ -1,5 +1,3 @@
-package src;
-
 /*
 Iterative Solution of Tower of Hanoi using Stack
 The Tower of Hanoi is a mathematical puzzle. It consists of three poles

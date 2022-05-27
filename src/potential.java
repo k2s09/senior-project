@@ -1,5 +1,3 @@
-package src;
-
 /* Finding potential of each word in a sentence, printing words in ascend
 ing order of their potential
  * Potential is the sum of positions of each letter in a word */

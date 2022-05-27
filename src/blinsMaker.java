@@ -1,5 +1,3 @@
-package src;
-
 // Find how many 'blins' (pancakes) you can make yourself when babushka (grandma) isn't home
 
 import java.util.Scanner;
@@ -9,7 +7,8 @@ public class blinsMaker {
         int eggs;
         int milk; // millilitre
         int flour; // grams
-        int minEggs = 2; // Recipe for single blin
+        // Recipe for single blin
+        int minEggs = 2;
         int minMilk = 200;
         int minFlour = 100;
         // Taking inputs
@@ -24,7 +23,7 @@ public class blinsMaker {
         // Calculating if there is enough for one meal
         if (eggs < minEggs || milk < minMilk || flour < minFlour)
             System.out.println("There is not enough for a single meal :("); // One meal is four blins
-        else {
+        else { // Calculate Minimum possible portions
             int eggPortions = eggs / minEggs;
             int milkPortions = milk / minMilk;
             int flourPortions = flour / minFlour;

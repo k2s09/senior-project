@@ -1,5 +1,3 @@
-package src;
-
 // TicTacToe game in Java for two players.
 
 import java.util.Scanner;

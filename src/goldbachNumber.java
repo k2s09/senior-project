@@ -1,5 +1,3 @@
-package src;
-
 /*A Goldbach number is a positive even integer that can be expressed as the sum of two odd primes.
 Note: All even integer numbers greater than 4 are Goldbach numbers.
 Example:

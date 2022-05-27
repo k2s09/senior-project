@@ -1,5 +1,3 @@
-package src;
-
 /* The names of the teams participating in a competition should be
 displayed on a banner vertically, to accommodate as many teams as
 possible in a single banner. Design a program to accept the names

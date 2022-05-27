@@ -1,5 +1,3 @@
-package src;
-
 // Converting between decimal and binary
 
 import java.util.Scanner;

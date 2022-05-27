@@ -1,5 +1,3 @@
-package src;
-
 import java.util.Scanner;
 
 public class dateCalculator {
@@ -17,10 +15,7 @@ public class dateCalculator {
 
     public static String computeDate(int day, int year) {
         int[] monthDays = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-        String[] monthNames = {"JANUARY", "FEBRUARY", "MARCH",
-                "APRIL", "MAY", "JUNE",
-                "JULY", "AUGUST", "SEPTEMBER",
-                "OCTOBER", "NOVEMBER", "DECEMBER"};
+        String[] monthNames = {"JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"};
 
         boolean leap = isLeapYear(year);
 
@@ -86,7 +81,6 @@ public class dateCalculator {
 
         System.out.println();
         System.out.println("DATE: " + dateStr);
-        System.out.println("DATE AFTER " + n
-                + " DAYS: " + nDateStr);
+        System.out.println("DATE AFTER " + n + " DAYS: " + nDateStr);
     }
 }

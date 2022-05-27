@@ -1,5 +1,3 @@
-package src;
-
 /* Write a program for finding duplicate parenthesis in a expression
 For example :
 (( a + b ) + (( c + d ))) = a + b + c + d

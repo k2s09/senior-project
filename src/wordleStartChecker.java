@@ -1,5 +1,3 @@
-package src;
-
 // Deterministic factor for wordle starter accuracy:
 // Does it include all most commonly used characters for its size?
 

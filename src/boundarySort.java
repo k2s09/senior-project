@@ -1,5 +1,3 @@
-package src;
-
 // Sort only boundary elements of a 2d array
 
 import java.util.Arrays;

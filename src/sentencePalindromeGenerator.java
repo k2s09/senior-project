@@ -1,5 +1,3 @@
-package src;
-
 // Write a program to accept a sentence which maybe terminated by either '?', '!' or '.' only. The words ware to be seperated with single blank space and are in uppercase
 /**
  * The following tasks are to be performed

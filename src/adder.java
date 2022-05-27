@@ -1,5 +1,3 @@
-package src;
-
 // Add time (hours and minutes) by passing arrays using Call by Reference
 
 import java.util.Scanner;

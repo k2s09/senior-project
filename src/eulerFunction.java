@@ -1,5 +1,3 @@
-package src;
-
 // The Euler number e is used as the base of natural logarithm
 // It can be approximated using the formula
 // e = 1/1! + 1/2! + 1/3! .. + 1/n!

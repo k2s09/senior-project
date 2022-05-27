@@ -1,5 +1,3 @@
-package src;
-
 /**
  * Given a positive integer n, print the matrix filled with rectangle pattern as shown below:
  * a a a a a
