@@ -1,8 +1,8 @@
 # senior-project
-Repository for my CS project as a senior in high school. Copy from it or not, I don't care.
+Repository for my CS Project as a senior in high school.
 
 # Details
-Java Programs that have good logic, comments and algorithms related to 11th and 12th ISC Computer Science Syllabus. 
+Java Programs with good logic, comments and algorithms related to 11th and 12th ISC Computer Science Syllabus.
 
 # License
 MIT License
