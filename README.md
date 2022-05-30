@@ -40,19 +40,19 @@ SOFTWARE.
 3. Menu Driven
 4. Functions
 5. Constructors
-6. Arrays
-7. Strings
-8. 2D Arrays
-9.  Object Passing
-10. Files
-11. Errors and Exceptions
-12. Recursion
-13. Inheritance
-14. Stack
-15. Queue
+5. Arrays - 1D, 2D
+6. Strings
+7. Object Passing
+8. Files
+9. Errors and Exceptions
+10. Recursion
+11. Inheritance
+12. LinkedList
+13. Stack
+14. Queue
 
 # Program List
-## 1) achillesNumber 
+## 1) achillesNumber
 **Topics:** Functions, Loops, LinkedList
 **Algorithm:**
 1) Start Algorithm
@@ -65,7 +65,7 @@ SOFTWARE.
 6) Now the linked list contains every unique prime factor of n. Run a for loop from i = 0 till lk.size() and check if the square of every element is also a factor of the original number. If true, return true, else return false.
 7) End algorithm
 
-## 2) adder 
+## 2) adder
 **Topics:** Call by Reference, Functions, Constructors
 **Algorithm:**
 1) Start algorithm
@@ -75,22 +75,22 @@ SOFTWARE.
 5) In function disptime, print final hours and minutes of calling function.
 6) End Algorithm
 
-## 3) arrayTools 
-**Topics:** Functions, 2D Arrays
+## 3) arrayTools
+**Topics:**  Functions, 2D Arrays
 **Algorithm:**
-TBD 
+TBD
 
-## 4) arrShiftSortMerge 
+## 4) arrShiftSortMerge
 **Topics:** Arrays, If Else, Loops
 **Algorithm:**
 TBD
 
-## 5) binaryDecimalShenanigans 
-**Topics:** Recursion, Functions
+## 5) binaryDecimalShenanigans
+**Topics:** Recursion, Functions, Strings
 **Algorithm:**
 TBD
 
-## 6) blinsMaker 
+## 6) blinsMaker
 **Topics:** If Else
 **Algorithm:**
 1) Start algorithm
@@ -101,7 +101,7 @@ TBD
 5) Print the number of blins / portions the user can make along with the amount of ingredients used and left.
 6) End Algorithm.
 
-## 7) boundarySort 
+## 7) boundarySort
 **Topics:** 2D Array, Loops, Sorting
 **Algorithm:**
 1) Start algorithm
@@ -111,7 +111,7 @@ TBD
 5) Run a for loop from i = 0 till rows and nested for loop from j = 0 till columns and put elements back in original matrix manually going clockwise.
 6) End Algorithm
 
-## 8) camelConc 
+## 8) camelConc
 **Topics:** If Else, Loops, Strings
 **Algorithm:**
 1) Start algorithm
@@ -121,8 +121,8 @@ TBD
 5) Print finalStr.
 6) End Algorithm
 
-## 9) chess 
-**Topics:** Menu Driven
+## 9) chess
+**Topics:** Menu Driven 
 **Algorithm:**
 1) Start algorithm
 2) Take input for start and end indexes in the form of x and y coordinates for the cartesian plane like chess board.
@@ -132,12 +132,12 @@ TBD
 6) Print values.
 7) End Algorithm
 
-## 10) circularQueue 
+## 10) circularQueue
 **Topics:** Queue, Functions
 **Algorithm:**
 TBD
 
-## 11) concentricNumbers 
+## 11) concentricCircles
 **Topics:** Loops
 **Algorithm:**
 1) Start algorithm
@@ -147,7 +147,7 @@ TBD
 5) The distance formula is disected here into the vertical and horizontal component. The bigger value is used instead of adding the squares and taking the square root.
 6) End Algorithm
 
-## 12) dateCalculator 
+## 12) dateCalculator
 **Topics:** Arrays, Functions, Loops
 **Algorithm:**
 1) Start Algorithm
@@ -169,8 +169,8 @@ TBD
 17) Print final values
 18) End Algorithm
 
-## 13) disariumNumber 
-**Topics:** Functions, Constructors, Call by Reference
+## 13) disariumNumber
+**Topics:** Functions, Constructors, Object Passing
 **Algorithm:**
 1) Start algorithm
 2) Declare and initialise integer size to default value. Initialise num to the num entered in main method for parameterised constructor.
@@ -181,7 +181,7 @@ TBD
 7) In function check, check if the num is equal to the sum of its digits and call the recursive function. Print true or false.
 8) End Algorithm
 
-## 14) eulerFunction 
+## 14) eulerFunction
 **Topics:** If Else, Loops
 **Algorithm:**
 1) Start algorithm
@@ -191,8 +191,8 @@ TBD
 5) When condition is met, print the count.
 6) End Algorithm.
 
-## 15) goldbachNumber 
-**Topics:** If Else, Loops, Functions
+## 15) goldbachNumber
+**Topics:** IF Else, Loops, Functions
 **Algorithm:**
 1) Start algorithm
 2) Take number input and check if it is valid by checking if it is within range of 9 to 50, is odd and not negative.
@@ -201,7 +201,7 @@ TBD
 5) In prime checking function, run a for loop from 2 till less than num. If num is divisible by i, increment flag. Check if flag is equal to 0, then the number is prime and return true, otherwise return false.
 6) End Algorithm
 
-## 16) isogramSentence 
+## 16) isogramSentence
 **Topics:** Strings, Arrays, Loops, If Else
 **Algorithm:**
 1) Start algorithm
@@ -212,7 +212,7 @@ TBD
 6) If any comparison of characters in the word is found to be true, increment the flag variable and break. Otherwise continue all iterations. In the end, check flag variable and print final result.
 7) End Algorithm.
 
-## 16) keyboardAnalyser 
+## 17) keyboardAnalyser
 **Topics:** Functions, 2D Arrays, Strings
 **Algorithm:**
 1) Start algorithm
@@ -223,13 +223,13 @@ TBD
 6) Print final output.
 7) End Algorithm.
 
-## 17) luckyNumbers 
+## 18) luckyNumbers
 **Topics:** Functions, If Else, Loops
 **Algorithm:**
 TBD
 
-## 18) potential 
-**Topics:** String, Loops, Arrays
+## 19) potential
+**Topics:**  Strings, Loops, Arrays
 **Algorithm:**
 1) Start algorithm
 2) Declare scanner object and take a string input from user to store the sentence in String sentence
@@ -241,12 +241,12 @@ TBD
 8) Print final values
 9) End Algorithm.
 
-## 19) recursiveSortSearch
-**Topics:** Recursion, Functions, Loops, If Else
+## 20) recursiveSortSearch
+**Topics:** Recursions, Functions, Loops, If Else
 **Algorithm:**
-TBD 
+TBD
 
-## 20) reverseEncryption 
+## 21) reverseEncryption
 **Topics:** Strings, Arrays, Loops
 **Algorithm:**
 1) Start algorithm
@@ -257,17 +257,22 @@ TBD
 6) After this encryption, store in file and print.
 7) End Algorithm.
 
-## 21) reversingLinkedList 
+## 22) reversingLinkedList
 **Topics:** Node, LinkedList, Loops, Inheritance
 **Algorithm:**
 TBD
 
-## 22) sentencePalindromeGenerator 
+## 23) sentencePalindromeGenerator
 **Topics:** If Else, Loops, Strings, Functions
 **Algorithm:**
 TBD
 
-## 23) ticTacToe 
+## 24) sentencePalindromeGenerator
+**Topics:** If Else, Loops, Strings, Functions
+**Algorithm:**
+TBD
+
+## 25) ticTacToe
 **Topics:** Functions, Strings, 2D Arrays, If Else
 **Algorithm:**
 1) Start algorithm
@@ -283,13 +288,13 @@ TBD
 11) In functions player1Turn and player2Turn, enter position and store in player1position. Convert the 1d coordinates to index of rows and columns and check if that place has already been occupied on the board. If not, place the player's character on that position on the board. Run a while loop to ensure that if the place is occupied, tell the user to enter a valid position until it is achieved. After a valid move, check if the user has won by calling checkWinner. If a user has won, print and end the game.
 12) End Algorithm.
 
-## 24) towersOfHanoi
-**Topics:** Stack, Functions, If Else, Loops
+## 26) towerOfHanoi
+**Topics:** Stack, Functions, If Else
 **Algorithm:**
 TBD
 
-## 25) typingTest 
-**Topics:** Strings, Arrays, Functions, Exceptions
+## 27) typingTest
+**Topics:** Functions, Strings, Arrays, Exceptions
 **Algorithm:**
 1) Declare instance variables: 
 	(a) String input
@@ -304,12 +309,15 @@ TBD
 5) In function display, print all statistics to user.
 6) End Algorithm.
 
-## 26) verticalBanners
+## 28) verticalBanners
 **Topics:** If Else, Loops, Arrays
 **Algorithm:**
 TBD
 
-## 27) wordleStartChecker
+## 29) wordleStartChecker
 **Topics:** Arrays, Strings, Functions, If Else
 **Algorithm:**
-TBD
+
+## 30)
+**Topics:** 
+**Algorithm:**
