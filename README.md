@@ -170,7 +170,7 @@ TBD
 **Algorithm:** 
 TBD
 
-## 11) concentricCircles
+## 11) concentricNumbers
 **Topics:** Loops
 **Algorithm:** 
 1) Start algorithm
@@ -295,7 +295,7 @@ TBD
 6) After this encryption, store in file and print.
 7) End Algorithm.
 
-## 23) reversingLinkedList
+## 23) reverseLinkedList
 **Topics:** Node, LinkedList, Loops, Inheritance
 **Algorithm:** 
 1) Start algorithm
