@@ -264,7 +264,33 @@ TBD
 ## 19) luckyNumbers
 **Topics:** Functions, If Else, Loops
 **Algorithm:** 
-TBD
+1) Start algorithm
+2) Declare instance variables arr[] and int N with default values.
+3) Declare and initialise class object
+4) Take input and store value of N 
+5) Start for loop from i = 0 till less than N. Store i+1 in arr[i]. End for loop.
+6) Print the array
+7) Declare int steps and initialise with numberOfSteps()
+8) Start for loop from i = 1 till less than equal to steps. Inside, eliminate every nth number with n starting from 2 and incrementing by 1.
+9) Call print()
+void eliminate()
+	1) Start for loop from i = 0 till less than N and increment by 1.
+	2) if the element at current index is 0, jump to next iteration.
+	3) if the (a+1)th index is divisible by count, change value at that index to 0.
+	4) Increment a by 1.
+int numberOfSteps()
+	1) Declare and initialise int steps as 0, i as 2 and N as the calling object's N.
+	2) Start a while loop with condition (i <= N)
+		1) Declare and initialise int R, short for Remaining, with value N/i
+		2) Subtract R from N
+		3) Increment i and steps by 1
+		4) Close loop
+	3) Return steps
+void print()
+	1. Start a for loop to traverse the array
+	2. Inside, if (arr[i] != 0), print the element
+	3. End for loop
+	4. Print a break line
 
 ## 20) potential
 **Topics:** Strings, Loops, Arrays
@@ -282,7 +308,21 @@ TBD
 ## 21) recursiveSortSearch
 **Topics:** Recursions, Functions, Loops, If Else
 **Algorithm:** 
-TBD
+1) Start Algorithm
+2) Take inputs for the size of array and elements
+3) Sort using bubble sort: In ascending Bubble Sort, the adjoining values are compared and exchanged if they are not in order. After one pass, the largest element is put in the end.
+	1) if (j == arr.length - i - 1) (If the column index is the last one)
+		1) if (i != arr.length - 2) (If the row index is not the second last) is true, then return bubbleSort() incrementing i and reset j to 0.
+		2) else, both i and j are at the end of their indexes, print the array (Base Case)
+	2) else, compare arr[j] and arr[j+1], swap the values. Then, return bubbleSort() while incrementing j.
+4) Search element using binary search. Binary search is the technique which only works in sorted arrays. The search element is compared with the middle element of the array. If the search element matches the middle element, search finishes. If the search element is less than middle, perform binary search in the first half of the array, otherwise perform binary search in the latter part of the array. 
+	1) Check if the lower index is greater than upper index (Base Case). If true, return -1 (Element not found).
+	2) Declare and initialise int m with value (l+u)/2
+	3) Start while loop with condition (l <= u)
+		1) if (arr[m] == e), return m
+		2) if (arr[m] < e), set u = m - 1;
+        3) else, set l = m + 1
+5) End Algorithm.
 
 ## 22) reverseEncryption
 **Topics:** Strings, Arrays, Loops
@@ -320,7 +360,24 @@ TBD
 ## 24) sentencePalindromeGenerator
 **Topics:** If Else, Loops, Strings, Functions
 **Algorithm:** 
-TBD
+1) Start algorithm
+2) Take input for sentence using Scanner object and store in String sentence
+3) Check if last char of the sentence is not a valid punctuation, exit the program.
+4) Declare and initialise words[] using sentence.split(" ")
+5) Start for loop iterating through sentence
+	1) Declare and initialise boolean b as isPalindrome(words[i])
+	2) If it is a palindrome, no changes are required to the word. Append it to the new sentence.
+	3) Else, convert the non-palindrome word. To do this, the take a substring of the word excluding the last character.
+	4) If the last two characters are repeating, i.e. if the last character of the substring is equal to the last character of the word, then remove another of the last character of the substring.
+	5) Now reversing the substring using StringBuffer reverse() function.
+	6) Append the reverse to the substring
+	7) Append the substring to the new sentence
+	8) Exit loop
+6) Print the initial and final sentence
+boolean isPalindrome()
+	1) Store the StringBuffer value of the passed string in sb
+	2) Reverse sb
+	3) Check if the string passed is equal to the string value of sb and return boolean value
 
 ## 25) ticTacToe
 **Topics:** Functions, Strings, 2D Arrays, If Else
@@ -341,7 +398,41 @@ TBD
 ## 26) towerOfHanoi
 **Topics:** Stack, Functions, If Else
 **Algorithm:** 
-TBD
+1) Start Algorithm
+Main method()
+	1) Create Object toh
+	2) Create three stacks of size disk to hold the disks - src, dest and aux
+	3) Call toh.solution and pass the disks
+Stack create()
+	1) Declare and initialise the stack
+	2) Initialise size as size passed
+	3) Initialise top as -1
+	4) Declare arr with size
+	5) Return Stack
+boolean isFull()
+	1) Check and return boolean value if top == size - 1
+boolean isEmpty()
+	1) Check and return boolean value if top == -1
+void push()
+	1) If stack is not full, add an integer to ++top.
+int pop()
+	1) Return the int at index top and decrement top.
+void moveDisksBetweenPoles()
+	1) Push the disk from pole that is not empty - src or dest.
+	2) If none of the poles are empty, push from the higher disk to the lower one depending on top disk of both poles.
+	3) After pushing the disks, execute moveDisk()
+void moveDisk()
+	1) Print values of disks and rods.
+void solution()
+	1) Calculate the total number of moves required i.e. "pow(2, n) - 1" here n is number of disks.
+	2) If number of disks (i.e. n) is even then interchange destination pole and auxiliary pole.
+	3) for i = 1 to total number of moves: 
+		if i%3 == 1:
+    		legal movement of top disk between source pole and destination pole
+     	if i%3 == 2:
+	    	legal movement top disk between source pole and auxiliary pole    
+     	if i%3 == 0:
+	        legal movement top disk between auxiliary pole and destination pole 
 
 ## 27) typingTest
 **Topics:** Functions, Strings, Arrays, Exceptions
@@ -362,12 +453,38 @@ TBD
 ## 28) verticalBanners
 **Topics:** If Else, Loops, Arrays
 **Algorithm:** 
-TBD
+1) Start Algorithm
+2) Store value of N in integer n
+3) Check if input is invalid
+4) Declare and initialise String array teams with size n
+5) Declare and set default value to integer highLen
+6) Start for loop from i = 0 till less than n with post-increment of 1. Inside loop, take input for word of teams[i]. By the end of the loop, the biggest length from the strings is stored in highLen. 
+7) Start another for loop from i = 0 till less than highLen with post-increment of 1.
+	1) Inside, start another for loop from j = 0 till less than n with post-increment of 1.
+	2) Declare and initialise integer len with value as teams[j].length()
+	3) If i is greater than equal to len, don't print the letter and rather the tab sequence
+	4) Else print the teams[j].charAt(i) character and a tab sequence
+	5) Exit inner loop	
+8) Print a break line
+9) Exit outer loop
+10) End Algorithm
 
 ## 29) wordleStartChecker
 **Topics:** Arrays, Strings, Functions, If Else
 **Algorithm:** 
-TBD
+1. Start algorithm
+2. Declare and initialise char[] list with the characters in alphabet in order of frequency of usage in the english language, double freq[] with the frequency percentages of those characters and int nTries as 0.
+3. Take input of the count of 5 letter words required and store in nTries
+4. Take input of the required number of strings and append them to String word with no whitespaces.
+5. Execute function compareWord(), passing the word in lower case
+6. Function compareWord()
+	1. Declare and Initialise int length as length of string passed
+	2. Declare String check and int checkPercent to initial values.
+	3. Run for loop from i till less than length, incrementing by 1. Inside, create a word with characters of highest accuracy and store the subsequent frequency percentages.
+	4. Declare and initialise int flag and wordPercentage with default values.
+	5. Start for loop from i = 0 till less than length with increment of 1.
+		1. Check if the ideal word check contains the ith character in string word. If true, increment flag by 1.
+		2. wordPercentage 
 
 ## 30) wordShift
 **Topics:** Strings, StringTokenizer, Functions
