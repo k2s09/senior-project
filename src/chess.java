@@ -22,6 +22,7 @@ public class chess {
         int x2 = sc.nextInt();
         int y2 = sc.nextInt();
         int flag = 0;
+        sc.close();
         // Program is easily solved using distance formula between two points
         // The distance formula in geometry is ((y2-y1)^2 + (x2-x1)^2)^0.5
         // The right distance needed to attack a piece is constant so just needs to be checked once.

@@ -265,7 +265,24 @@ TBD
 ## 23) reversingLinkedList
 **Topics:** Node, LinkedList, Loops, Inheritance
 **Algorithm:**
-TBD
+1) Start algorithm
+2) In class Node, declare int data and Node next.
+	1) In Nodal constructor, set value of data as d and next node as null.
+3) In main(), make object list
+	1) Set values of head and next nodes as integer values
+	2) Print Values
+	3) Reverse List
+	4) Print reversed list
+4) In Node reverse(),
+	1) Initialize three pointers prev as NULL, curr as head and next as NULL.
+	2) Iterate through the linked list using while loop. In loop, do following. 
+		1) Before changing next of current, store next node 
+			next = curr->next
+		2) Now change next of current, This is where actual reversing happens 
+			curr->next = prev 
+		3) Move prev and curr one step forward 
+			prev = curr 
+			curr = next
 
 ## 24) sentencePalindromeGenerator
 **Topics:** If Else, Loops, Strings, Functions

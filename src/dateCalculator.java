@@ -52,7 +52,7 @@ public class dateCalculator {
         int year = in.nextInt();
         System.out.print("DATE AFTER (N DAYS): ");
         int n = in.nextInt();
-
+        in.close();
         if (dayNum < 1 || dayNum > 366) {
             System.out.println("DAY NUMBER OUT OF RANGE");
             return;

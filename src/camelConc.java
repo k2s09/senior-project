@@ -35,6 +35,7 @@ public class camelConc {
             finalStr += word;
         }
         System.out.println("The final word is: " + finalStr);
+        Sc.close();
     }
 }
 /**
