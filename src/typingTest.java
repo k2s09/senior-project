@@ -60,6 +60,7 @@ public class typingTest {
                 ++correctWords;
             ++i;
         }
+        words.close();
         minutesTaken = time / 60.0;
         WPM = (int) ((correctWords * 1.0) / minutesTaken);
         accuracy = ((correctWords * 1.0) / numberOfWords) * 100.0;
