@@ -5,6 +5,7 @@ public class isogramSentence {
         Scanner Sc = new Scanner(System.in);
         System.out.println("Enter sentence: ");
         String sentence = Sc.nextLine();
+        Sc.close();
         sentence += " ";
         int length = sentence.length();
         String word = "";

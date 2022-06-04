@@ -13,8 +13,10 @@ import java.util.Scanner;
 class concentricNumbers {
     public static void main(String[] args) {
         // Taking inputs
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter no");
-        int n = new Scanner(System.in).nextInt();
+        int n = sc.nextInt();
+        sc.close();
         // This program is done using the distance formula
         n = 2 * n - 1;
         int m = (n - 1) / 2;
