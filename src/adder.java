@@ -24,6 +24,7 @@ public class adder {
         System.out.println("Enter hours and minutes");
         for (int i = 0; i < a.length; i++)
             a[i] = sc.nextInt();
+        sc.close();
     }
 
     // Both arrays are passed as objects and final values are stored in calling object

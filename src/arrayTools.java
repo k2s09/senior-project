@@ -61,6 +61,7 @@ class arrayTools {
         addSubtract(arr, b);
         multiply1(arr, 5);
         shift(arr, r, c);
+        Sc.close();
     }
 
     static int[][] input() {
@@ -76,6 +77,7 @@ class arrayTools {
                 arr[i][j] = sc.nextInt();
             }
         }
+        sc.close();
         return arr;
     }
 
