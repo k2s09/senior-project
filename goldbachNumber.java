@@ -16,6 +16,7 @@ public class goldbachNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number");
         int num = sc.nextInt();
+        sc.close();
         if (num < 0 || num % 2 != 0 || num <= 9 || num >= 50) { // Checking if number is invalid
             System.out.println("Invalid input");
             System.exit(0);
