@@ -121,7 +121,24 @@ TBD
 ## 5) binaryDecimalShenanigans
 **Topics:** Recursion, Functions, Strings
 **Algorithm:** 
-TBD
+binaryToDecimal(int binary)
+    1) Store the string value of passed integer in StringBuffer. Reverse it and store this value in a string called binary.
+	2) Declare int decimal and initialise with default value
+	3) Run a for loop iterating through string binary.
+	    1) if the character at index i is a '1', increase the value of int decimal with 2^i
+		2) Exit loop
+	4) Return decimal
+binaryToDecimalRecursion(int n)
+    1) Set base case as n == 0. If true, return 0.
+	2) Call the recursive statement return n % 10 + 2 * binaryToDecimalRecursion(n / 10). This takes the last digit and adds the twice of the number without the last digit, and continues to do so till n is 0. In the end of this expanded expression of tailwind recursive recursion, 0 is added.
+decimalToBinary(int decimal)
+    1) Declare string binary 
+	2) Run while loop with condition(decimal > 1)
+	3) Inside, store the remainder upon dividing decimal by 2 in string binary and divide decimal by 2. 
+	4) Return the Integer.valueOf() of a stringbuffer variable with value of string binary, reversed.
+decimalToBinaryRecursion(int n)
+    1) Set base case as n == 0. If true, return 0.
+	2) Call the recursive statement return n % 2 + 10 * binaryToDecimalRecursion(n / 10). This takes the remainder of number upon dividing by 2, and, adds ten times of the number without the last digit, and continues to do so till n is 0. In the end of this expanded expression of tailwind recursive recursion, 0 is added.
 
 ## 6) blinsMaker
 **Topics:** If Else
@@ -155,7 +172,7 @@ TBD
 6) End Algorithm
 
 ## 9) chess
-**Topics:** Menu Driven
+**Topics:** If Else, Menu
 **Algorithm:** 
 1) Start algorithm
 2) Take input for start and end indexes in the form of x and y coordinates for the cartesian plane like chess board.
@@ -168,7 +185,28 @@ TBD
 ## 10) circularQueue
 **Topics:** Queue, Functions
 **Algorithm:** 
-TBD
+1) Start Algorithm
+main()
+    1) Take inputs for max size, true size and all elements.
+	2) Run pop() to pop an element from the front
+	3) Take input for an element and run push() to push an element to rear
+isFull()
+    1) Return the boolean value of comparison of c and arr.length
+isEmpty()
+    1) Return the boolean value of comparison of c and 0
+pop()
+    1) Check if circular queue is empty. If true, print MIN_VALUE
+	2) Store the value of f % c in f.
+	3) Return arr[++f]
+push(int n)
+    1) Check if circular queue is full. If true, print MAX_VALUE
+	2) Store the value (r+1) % arr.length in r
+	3) Store value of arr[r] in int n
+	4) Increment the value of c by 1
+	5) if(f == -1), store value of r in int f
+circularQueue(int size)
+    1) Set default values of int f and r to -1 and c to 0.
+	2) Store value of passed size in instance variable size.
 
 ## 11) concentricNumbers
 **Topics:** Loops
@@ -227,7 +265,20 @@ TBD
 ## 15) fascinatingNumber
 **Topics:** Loops, Functions, Strings
 **Algorithm:** 
-TBD
+1) Start algorithm
+2) Take inputs of the lower and upper limit of range and store as int.
+3) Declare and initialise count variable to default int value.
+4) Start for loop from i = l till less than equal to h with increment of 1.
+	1) Check if i is a fascinating number by calling boolean function isFascinating(i)
+	2) If Yes, print the number and increment count by 1.
+isFascinating()
+	1) Append the number, number*2 and number*3 in a string str.
+	2) Store value of str in a new string tmp and clear str.
+	3) Start for loop from i = 0, less than length of tmp with increment of 1.
+		1) Inside check if tmp.charAt(i) != 0, if true, append the char to string str.
+	4) Make char array using all characters of string str
+	5) Sort the digits in ascending alphabetical order.
+	6) Check if the string value of the sorted char array is equal to "123456789" and return boolean value of expression.
 
 ## 16) goldbachNumber
 **Topics:** If Else, Loops, Functions
@@ -472,21 +523,29 @@ void solution()
 ## 29) wordleStartChecker
 **Topics:** Arrays, Strings, Functions, If Else
 **Algorithm:** 
-1. Start algorithm
-2. Declare and initialise char[] list with the characters in alphabet in order of frequency of usage in the english language, double freq[] with the frequency percentages of those characters and int nTries as 0.
-3. Take input of the count of 5 letter words required and store in nTries
-4. Take input of the required number of strings and append them to String word with no whitespaces.
-5. Execute function compareWord(), passing the word in lower case
-6. Function compareWord()
-	1. Declare and Initialise int length as length of string passed
-	2. Declare String check and int checkPercent to initial values.
-	3. Run for loop from i till less than length, incrementing by 1. Inside, create a word with characters of highest accuracy and store the subsequent frequency percentages.
-	4. Declare and initialise int flag and wordPercentage with default values.
-	5. Start for loop from i = 0 till less than length with increment of 1.
-		1. Check if the ideal word check contains the ith character in string word. If true, increment flag by 1.
-		2. wordPercentage 
+1) Start algorithm
+2) Declare and initialise char[] list with the characters in alphabet in order of frequency of usage in the english language, double freq[] with the frequency percentages of those characters and int nTries as 0.
+3) Take input of the count of 5 letter words required and store in nTries
+4) Take input of the required number of strings and append them to String word with no whitespaces.
+5) Execute function compareWord(), passing the word in lower case
+6) Function compareWord()
+	1) Declare and Initialise int length as length of string passed
+	2) Declare String check and int checkPercent to initial values.
+	3) Run for loop from i till less than length, incrementing by 1. Inside, create a word with characters of highest accuracy and store the subsequent frequency percentages.
+	4) Declare and initialise int flag and wordPercentage with default values.
+	5) Start for loop from i = 0 till less than length with increment of 1.
+		1) Check if the ideal word check contains the ith character in string word. If true, increment flag by 1.
+		2) wordPercentage 
 
 ## 30) wordShift
 **Topics:** Strings, StringTokenizer, Functions
 **Algorithm:** 
-TBD
+1. Start algorithm
+2. Take input for sentence and store as String, shift as int.
+3. Declare and initialise stringtokenizer object with parameters sentence and default delimiter. Store st.countTokens() in int length.
+4. Store remainder of shift / length in shift, since shift would only effectively take place less than length times. If input shift is greater than length, shifting process duplicates.
+5. Start while loop with condition (st.hasMoreToken()), essentially, traversing through the stringtokenizer
+	1. Check if (count < length - shift). If yes, append the nextToken() to s2 and increment count.
+	2. Else, append nextToken() to s3
+	3. End while loop.
+6. Print s3 + s2.
