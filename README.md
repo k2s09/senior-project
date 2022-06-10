@@ -260,7 +260,7 @@ SOFTWARE.
 5. The distance formula is disected here into the vertical and horizontal component. The bigger value is used instead of adding the squares and taking the square root.
 6. End Algorithm
 
-## 12) dateCalculator
+## 12. dateCalculator
 **Topics:** Arrays, Functions, Loops
 **Algorithm:** 
 1. Start Algorithm
@@ -282,7 +282,7 @@ SOFTWARE.
 17. Print final values
 18. End Algorithm
 
-## 13) disariumNumber
+## 13. disariumNumber
 **Topics:** Functions, Constructors, Object Passing
 **Algorithm:** 
 1. Start algorithm
@@ -294,7 +294,7 @@ SOFTWARE.
 7. In function check, check if the num is equal to the sum of its digits and call the recursive function. Print true or false.
 8. End Algorithm
 
-## 14) eulerFunction
+## 14. eulerFunction
 **Topics:** If Else, Loops
 **Algorithm:** 
 1. Start algorithm
@@ -304,7 +304,7 @@ SOFTWARE.
 5. When condition is met, print the count.
 6. End Algorithm.
 
-## 15) fascinatingNumber
+## 15. fascinatingNumber
 **Topics:** Loops, Functions, Strings
 **Algorithm:** 
 1. Start algorithm
@@ -322,7 +322,7 @@ SOFTWARE.
 	5. Sort the digits in ascending alphabetical order.
 	6. Check if the string value of the sorted char array is equal to "123456789" and return boolean value of expression.
 
-## 16) goldbachNumber
+## 16. goldbachNumber
 **Topics:** If Else, Loops, Functions
 **Algorithm:** 
 1. Start algorithm
@@ -332,7 +332,7 @@ SOFTWARE.
 5. In prime checking function, run a for loop from 2 till less than num. If num is divisible by i, increment flag. Check if flag is equal to 0, then the number is prime and return true, otherwise return false.
 6. End Algorithm
 
-## 17) isogramSentence
+## 17. isogramSentence
 **Topics:** Strings, Arrays, Loops, If Else
 **Algorithm:** 
 1. Start algorithm
@@ -343,7 +343,7 @@ SOFTWARE.
 6. If any comparison of characters in the word is found to be true, increment the flag variable and break. Otherwise continue all iterations. In the end, check flag variable and print final result.
 7. End Algorithm.
 
-## 18) keyboardAnalyser
+## 18. keyboardAnalyser
 **Topics:** Functions, 2D Arrays, Strings
 **Algorithm:** 
 1. Start algorithm
@@ -354,7 +354,7 @@ SOFTWARE.
 6. Print final output.
 7. End Algorithm.
 
-## 19) luckyNumbers
+## 19. luckyNumbers
 **Topics:** Functions, If Else, Loops
 **Algorithm:** 
 1. Start algorithm
@@ -385,7 +385,7 @@ SOFTWARE.
 	3. End for loop
 	4. Print a break line
 
-## 20) potential
+## 20. potential
 **Topics:** Strings, Loops, Arrays
 **Algorithm:** 
 1. Start algorithm
@@ -398,7 +398,7 @@ SOFTWARE.
 8. Print final values
 9. End Algorithm.
 
-## 21) recursiveSortSearch
+## 21. recursiveSortSearch
 **Topics:** Recursions, Functions, Loops, If Else
 **Algorithm:** 
 1. Start Algorithm
@@ -417,7 +417,7 @@ SOFTWARE.
         3. else, set l = m + 1
 5. End Algorithm.
 
-## 22) reverseEncryption
+## 22. reverseEncryption
 **Topics:** Strings, Arrays, Loops
 **Algorithm:** 
 1. Start algorithm
@@ -428,7 +428,7 @@ SOFTWARE.
 6. After this encryption, store in file and print.
 7. End Algorithm.
 
-## 23) reverseLinkedList
+## 23. reverseLinkedList
 **Topics:** Node, LinkedList, Loops, Inheritance
 **Algorithm:** 
 1. Start algorithm
@@ -450,7 +450,7 @@ SOFTWARE.
 			prev = curr 
 			curr = next
 
-## 24) sentencePalindromeGenerator
+## 24. sentencePalindromeGenerator
 **Topics:** If Else, Loops, Strings, Functions
 **Algorithm:** 
 1. Start algorithm
@@ -472,7 +472,7 @@ SOFTWARE.
 	2. Reverse sb
 	3. Check if the string passed is equal to the string value of sb and return boolean value
 
-## 25) ticTacToe
+## 25. ticTacToe
 **Topics:** Functions, Strings, 2D Arrays, If Else
 **Algorithm:** 
 1. Start algorithm
@@ -488,7 +488,7 @@ SOFTWARE.
 11. In functions player1Turn and player2Turn, enter position and store in player1position. Convert the 1d coordinates to index of rows and columns and check if that place has already been occupied on the board. If not, place the player's character on that position on the board. Run a while loop to ensure that if the place is occupied, tell the user to enter a valid position until it is achieved. After a valid move, check if the user has won by calling checkWinner. If a user has won, print and end the game.
 12. End Algorithm.
 
-## 26) towerOfHanoi
+## 26. towerOfHanoi
 **Topics:** Stack, Functions, If Else
 **Algorithm:** 
 1. Start Algorithm
@@ -527,7 +527,7 @@ SOFTWARE.
      	if i%3 == 0:
 	        legal movement top disk between auxiliary pole and destination pole 
 
-## 27) typingTest
+## 27. typingTest
 **Topics:** Functions, Strings, Arrays, Exceptions
 **Algorithm:** 
 1. Declare instance variables: 
@@ -543,7 +543,7 @@ SOFTWARE.
 5. In function display, print all statistics to user.
 6. End Algorithm.
 
-## 28) verticalBanners
+## 28. verticalBanners
 **Topics:** If Else, Loops, Arrays
 **Algorithm:** 
 1. Start Algorithm
@@ -562,7 +562,7 @@ SOFTWARE.
 9. Exit outer loop
 10. End Algorithm
 
-## 29) wordleStartChecker
+## 29. wordleStartChecker
 **Topics:** Arrays, Strings, Functions, If Else
 **Algorithm:** 
 1. Start algorithm
@@ -579,7 +579,7 @@ SOFTWARE.
 		1. Check if the ideal word check contains the ith character in string word. If true, increment flag by 1.
 		2. wordPercentage 
 
-## 30) wordShift
+## 30. wordShift
 **Topics:** Strings, StringTokenizer, Functions
 **Algorithm:** 
 1. Start algorithm
