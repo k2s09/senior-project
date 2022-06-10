@@ -8,7 +8,10 @@ public class typingTest {
     static int WPM, CPM, numberOfWords, correctWords;
     static double start, end, time, accuracy, minutesTaken;
     // Class Variables
-    String[] bank = {"be", "have", "do", "say", "get", "make", "go", "know", "take", "see", "come", "think", "look", "want", "give", "use", "find", "tell", "ask", "work", "seem", "feel", "try", "leave", "call", "person", "life", "day", "number", "again"};
+    String[] bank = {"be", "have", "do", "say", "get", "make", "go", "know", "take",
+            "see", "come", "think", "look", "want", "give", "use", "find", "tell",
+            "ask", "work", "seem", "feel", "try", "leave", "call", "person", "life",
+            "day", "number", "again"};
 
     typingTest() {
         input = "";

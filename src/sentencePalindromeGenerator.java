@@ -1,10 +1,10 @@
-// Write a program to accept a sentence which maybe terminated by either '?', '!' or '.' only. The words ware to be seperated with single blank space and are in uppercase
-/**
- * The following tasks are to be performed
- * a) Check the validity for the accepted sentence
- * b) Convert any non palindrome words into palindromes by concatenating the word by its reverse (excluding the last character)
- * c) Display the original sentence along with the converted sentence
- */
+// Write a program to accept a sentence which maybe terminated by either '?', '!' or '.' only.
+// The words ware to be seperated with single blank space and are in uppercase
+// The following tasks are to be performed
+// a) Check the validity for the accepted sentence
+// b) Convert any non palindrome words into palindromes by concatenating the word by its reverse (excluding the last
+// character)
+// c) Display the original sentence along with the converted sentence
 
 import java.util.Scanner;
 

@@ -1,6 +1,7 @@
 // A Fascinating number is one which when multiplied by 2 and 3 and then, after the results are concatenated
-// with the original number, the new number contains all the digits from 1 to 9 exactly once. There can be any number of zeroes and are to be ignored.
-// Accept two positive integers m and n, where m must be less than n and the values of both �m� and �n�
+// with the original number, the new number contains all the digits from 1 to 9 exactly once.
+// There can be any number of zeroes and are to be ignored.
+// Accept two positive integers m and n, where m must be less than n and the values of both m and n
 // must be greater than 99 and less than 10000 as user input. Display all Fascinating numbers that are
 // in the range between m and n (both inclusive) and output them along with the frequency
 

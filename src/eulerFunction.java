@@ -3,7 +3,6 @@
 // e = 1/1! + 1/2! + 1/3! .. + 1/n!
 // Write a program in Java that approximates e using a loop that terminates when the 
 // difference between two successive values of e differ by less than 0.0000001
-
 public class eulerFunction {
     public static void main(String[] args) {
         double e = 1.0d;

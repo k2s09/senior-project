@@ -20,7 +20,8 @@ public class reverseEncryption {
         for (i = 0; i < sentences.length; i++) {
             if (i + 1 % 2 == 0) {
                 for (int j = 0; j < sentences[i].length() - 1; j++) {
-                    sentences[i] = sentences[i].substring(0, j) + (char) (sentences[i].charAt(j) + 1) + sentences[i].substring(j + 1);
+                    sentences[i] = sentences[i].substring(0, j) +
+                            (char)(sentences[i].charAt(j) + 1) + sentences[i].substring(j + 1);
                 }
             } else {
                 sentences[i] = (new StringBuffer(sentences[i]).reverse()).toString();

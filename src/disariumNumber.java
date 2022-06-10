@@ -19,7 +19,8 @@ public class disariumNumber {
     }
 
     int sumOfDigits(int n, int p) {
-        return p == 0 ? 0 : (int) Math.pow(n % 10, p) + this.sumOfDigits(n / 10, p - 1);
+        return p == 0 ? 0 : (int) Math.pow(n % 10, p) +
+                this.sumOfDigits(n / 10, p - 1);
     }
 
     void check() {
