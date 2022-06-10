@@ -13,7 +13,7 @@ public class verticalBanners {
         int n = in.nextInt();
         in.nextLine();
         in.close();
-        
+
         if (n <= 2 || n >= 9) {
             System.out.println("INVALID INPUT");
             return;

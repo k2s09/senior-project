@@ -3,6 +3,7 @@
  * A Powerful Number is a positive integer N, such that for every prime factor p of N, p2 is also a factor.
  * A Perfect Power is a positive integer N such that it can be expressed as ab, where a and b are natural numbers > 1.
  */
+
 import java.util.LinkedList;
 import java.util.Scanner;
 

@@ -1,6 +1,3 @@
-# Senior-Project
-Repository for my CS Project as a senior in high school.
-
 # Details
 Java programs with good logic, comments and algorithms related to 11th and 12th ISC CS Syllabus.
 
@@ -167,6 +164,8 @@ SOFTWARE.
 5. Start new for loop from i = 0 till less than merge.length with increment of 1. Print all the values of the array merge[].
 
 ## 5. binaryDecimalShenanigans
+**Topics:** String, Loops, Recursion, If Else
+**Algorithm:** 
 1. Store the string value of passed integer in StringBuffer. Reverse it and store this value in a string called binary.
 2. Declare int decimal and initialise with default value
 3. Run a for loop iterating through string binary.
@@ -185,6 +184,8 @@ SOFTWARE.
 	2. Call the recursive statement return n % 2 + 10 * binaryToDecimalRecursion(n / 10). This takes the remainder of number upon dividing by 2, and, adds ten times of the number without the last digit, and continues to do so till n is 0. In the end of this expanded expression of tailwind recursive recursion, 0 is added.
 
 ## 6. blinsMaker
+**Topics:** If Else
+**Algorithm:** 
 1. Start algorithm
 2. Initialise scanner object and declare variables to store eggs, milk, flour and minimum required to make one portion of blins (pancakes).
 3. Calculate the amount of pancakes (blins) one can make using raw ingredients by first taking the available amounts of ingredients present with user.

@@ -51,9 +51,10 @@ public class chess {
         }
     }
 }
-/** Variable        Data        Table
- *  x1, y1          int         Store coordinates of first point on chess board
- *  x2, y2          int         Store coordinates of second point on chess board
- *  distance        int         Calculate and store distance between the points
- *  flag            int         Check for queen
+/**
+ * Variable        Data        Table
+ * x1, y1          int         Store coordinates of first point on chess board
+ * x2, y2          int         Store coordinates of second point on chess board
+ * distance        int         Calculate and store distance between the points
+ * flag            int         Check for queen
  */
