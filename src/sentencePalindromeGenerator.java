@@ -44,7 +44,7 @@ public class sentencePalindromeGenerator {
         }
         // Task c
         System.out.println("\nFinal result: ");
-        System.out.println(sentence2 + "\n" + newSentence + lastChar);
+        System.out.println(sentence2 + "\n" + newSentence.trim() + lastChar);
     }
 
     public static boolean isPalindrome(String word) {

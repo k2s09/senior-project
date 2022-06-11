@@ -20,7 +20,6 @@ public class arrayTools {
         int c = sc.nextInt();
         System.out.println("Enter " + (r * c) + " elements");
         int[][] arr = new int[r][c];
-        sc.close();
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 arr[i][j] = sc.nextInt();

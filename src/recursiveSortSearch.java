@@ -12,17 +12,17 @@ public class recursiveSortSearch {
         }
         System.out.println("Original Array: ");
         print(arr);
-        System.out.println("Sorting using bubble sort");
+        System.out.println("\nSorting using bubble sort");
         bubbleSort(arr, 0, 0);
         print(arr);
-        System.out.println("Enter element to search for binary search");
+        System.out.println("\nEnter element to search for binary search");
         int e = sc.nextInt();
         sc.close();
         int search = binarySearch(arr, 0, N - 1, e);
         if (search == -1) {
             System.out.println("Element not found");
         } else {
-            System.out.println("Element found at " + search + "th index");
+            System.out.println("Element found at " + (search+1) + "th index");
         }
     }
 
@@ -31,11 +31,7 @@ public class recursiveSortSearch {
         if (j == arr.length - i - 1) {
             if (i != arr.length - 2) {
                 bubbleSort(arr, ++i, 0);
-            } else {
-                for (int k = 0; k < arr.length; k++) {
-                    System.out.print(i + " ");
-                }
-            }
+            } else return;
         } else {
             if (arr[j] > arr[j + 1]) {
                 int temp = arr[j];
@@ -48,20 +44,17 @@ public class recursiveSortSearch {
 
     // Binary Search
     static int binarySearch(int[] arr, int l, int u, int e) {
-        if (l > u)
-            return -1;
-        int m = (l + u) / 2;
-        while (l <= u) {
+        if (u >= l) {
+            int m = l + (u - l) / 2;
             if (arr[m] == e)
                 return m;
-            if (arr[m] < e)
-                u = m - 1;
-            else
-                l = m + 1;
+            if (arr[m] > e)
+                return binarySearch(arr, l, m - 1, e);
+            return binarySearch(arr, m + 1, u, e);
         }
-        return binarySearch(arr, l, u, e);
+        return -1;
     }
-
+    
     static void print(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

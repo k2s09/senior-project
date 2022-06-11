@@ -45,6 +45,8 @@ public class towerOfHanoi {
 
     // Removing an item from the top
     int pop(Stack stack) {
+        if (isEmpty(stack))
+            return Integer.MIN_VALUE;     
         return stack.arr[stack.top--];
     }
 

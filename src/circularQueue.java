@@ -11,6 +11,7 @@ public class circularQueue {
         r = -1;
         c = 0;
         this.size = size;
+        arr = new int[this.size];
     }
 
     public static void main(String args[]) {

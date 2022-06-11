@@ -12,6 +12,16 @@ public class disariumNumber {
         o.countDigit();
         o.check();
         System.out.println(o.sumOfDigits(135, 3));
+        
+        disariumNumber o2 = new disariumNumber(89);
+        o2.countDigit();
+        o2.check();
+        System.out.println(o2.sumOfDigits(89, 2));
+        
+        disariumNumber o3 = new disariumNumber(80);
+        o3.countDigit();
+        o3.check();
+        System.out.println(o3.sumOfDigits(80, 2));
     }
 
     void countDigit() {

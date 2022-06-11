@@ -5,7 +5,7 @@ Example:
 10 = 3 + 7
 10 = 5 + 5
 Hence, 6 has one odd prime pair 3 and 3. Similarly, 10 has two odd prime pairs, i.e. 3, 7 and 5, 5.
-Write a program to accept an even integer ‘N’ where N > 9 and N < 50. Find all the odd prime pairs whose sum is equal to the number ‘N’.
+Write a program to accept an even integer N where N > 9 and N < 50. Find all the odd prime pairs whose sum is equal to the number N.
 */
 
 import java.util.Scanner;

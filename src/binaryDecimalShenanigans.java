@@ -3,22 +3,17 @@ import java.util.Scanner;
 public class binaryDecimalShenanigans {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter decimal number");
+        System.out.print("Enter decimal number: ");
         int decimal = sc.nextInt();
-        System.out.println("Enter binary number");
+        System.out.print("Enter binary number: ");
         int binary = sc.nextInt();
         sc.close();
-        System.out.println("Binary to Decimal");
-        System.out.println(binaryToDecimal(binary));
-        System.out.println("Binary to Decimal using recursion");
-        System.out.println(binaryToDecimalRecursion(binary));
-        System.out.println("Decimal to Binary");
-        System.out.println(decimalToBinary(decimal));
-        System.out.println("Decimal to Binary using Recursion");
-        System.out.println(decimalToBinaryRecursion(decimal));
+        System.out.println("Binary to Decimal: " + binaryToDecimal(binary));
+        System.out.println("Binary to Decimal using recursion: " + binaryToDecimalRecursion(binary));
+        System.out.println("Decimal to Binary: " + decimalToBinary(decimal));
+        System.out.println("Decimal to Binary using Recursion: " + decimalToBinaryRecursion(decimal));
     }
 
-    // 11011 ->
     static int binaryToDecimal(int n) {
         String binary = String.valueOf(new StringBuffer("" + n).reverse());
         int decimal = 0;
@@ -32,11 +27,11 @@ public class binaryDecimalShenanigans {
 
     static int decimalToBinary(int decimal) {
         String binary = "";
-        while (decimal > 1) {
+        while (decimal > 0) {
             binary += decimal % 2;
             decimal /= 2;
         }
-        return Integer.valueOf(new StringBuffer(binary).reverse().toString());
+        return Integer.parseInt(new StringBuffer(binary).reverse().toString());
     }
 
     static int decimalToBinaryRecursion(int n) {
