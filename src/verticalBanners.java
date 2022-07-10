@@ -27,7 +27,7 @@ public class verticalBanners {
             if (teams[i].length() > highLen) {
                 highLen = teams[i].length();
             }
-        }
+        } 
 
         for (int i = 0; i < highLen; i++) {
             for (int j = 0; j < n; j++) {
