@@ -35,7 +35,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,6 +48,7 @@
       <updated>1654917330411</updated>
       <workItem from="1654917332996" duration="91000" />
       <workItem from="1657478126372" duration="163000" />
+      <workItem from="1657807750438" duration="170000" />
     </task>
     <servers />
   </component>
