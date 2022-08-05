@@ -11,6 +11,7 @@ public class arrayTools {
         rotate(arr);
         System.out.println("Enter number to multiply with");
         multiply1(arr, sc.nextInt());
+
     }
 
     static int[][] input() {
