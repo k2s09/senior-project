@@ -84,7 +84,7 @@ public class typingTest {
  * WPM, CPM        int         (words per minute and characters per minute) Store speed of user
  * numberOfWords   int         Store Total number of words
  * correctWords    int         Number of words correct by user
- * start, end      int         Store nano seconds of day
+ * start, end      int         Store nanoseconds of day
  * time            int         end - start (Store time taken)
  * minutesTaken    int         Convert time to minutes
  * accuracy        int         Accuracy in percentage

@@ -8,7 +8,7 @@ public class eulerFunction {
         double e = 1.0d;
         int count = 1;
         boolean flag = false;
-        while (flag == false) {
+        while (!flag) {
             ++count;
             // find fact of count
             int fact = 1;
