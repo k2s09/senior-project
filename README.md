@@ -1,5 +1,5 @@
 # Details
-Java programs with good logic, comments and algorithms related to 11th and 12th ISC CS Syllabus.
+Java programs with good logic, comments and algorithms related to 11th and 12th ISC CS Syllabus. 
 
 # Acknowledgement
 I would like to thank my CS Teacher Mrs. Mithila Dargan for supporting me throughout the creation of this project, teaching me the wonderful subject of Computer Science and the importance of hard work. I would also like to thank my friends and family since this wouldn't be possible without them.
