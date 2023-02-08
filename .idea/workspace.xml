@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="2994c9bc-a428-4b55-a70f-710e468c9556" name="Changes" comment="Random Update" />
+=======
+    <list default="true" id="2994c9bc-a428-4b55-a70f-710e468c9556" name="Changes" comment="Random Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +86,7 @@
       <workItem from="1674984947506" duration="88000" />
       <workItem from="1674985047631" duration="107000" />
       <workItem from="1674985169822" duration="98000" />
+<<<<<<< Updated upstream
       <workItem from="1675610129919" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Random Update">
@@ -89,6 +96,16 @@
       <option name="project" value="LOCAL" />
       <updated>1674465765793</updated>
     </task>
+=======
+    </task>
+    <task id="LOCAL-00001" summary="Random Update">
+      <created>1674465765793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674465765793</updated>
+    </task>
+>>>>>>> Stashed changes
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
