@@ -125,6 +125,8 @@ I would like to thank my CS Teacher Mrs. Mithila Dargan for supporting me throug
 	8. Exit both loops and print sum.
 
 ## 4. arrShiftSortMerge
+**Topics:** Functions, 2D Arrays, Recursion
+**Algorithm:**
 1. Start algorithm
 2. Take inputs for size of first array in n1, values of elements of the array in a[], size of second array in n2, values of elements of the array in b[]
 3. Declare an array merge of size n1+n2. Declare variables count for merge, aC for a[] and bC for b[]
